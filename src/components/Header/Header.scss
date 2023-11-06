@@ -1,0 +1,99 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.85rem 0;
+    background: #f7f9fcda;
+    .logo {
+        display: flex;
+        background: transparent;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        svg {
+            margin-right: 0.6rem;
+            width: 2rem;
+            height: 2rem;
+        }
+        .name {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            svg {
+                width: 3.125rem;
+                height: 1.0335rem;
+            }
+        }
+    }
+    .search-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: max-content;
+        background: #e3ebfcdb;
+        padding: 9px 20px;
+        border-radius: 50px;
+        cursor: default;
+        // border: 1px solid #c2d0ecc3;
+        .search {
+            background: #e3ebfcdb;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .magnifying {
+                background: #e3ebfcdb;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-right: 0.8rem;
+                border-radius: 50%;
+                width: 14px;
+            }
+            svg {
+                background: #e3ebfcdb;
+                width: 14px;
+            }
+            input {
+                border: none;
+                outline: none;
+                width: 30rem;
+                background: #e3ebfcdb;
+                font-size: 0.9rem;
+                color: #2d2b2be0;
+                letter-spacing: 0.01rem;
+            }
+        }
+        .submit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #e3ebfcdb;
+            button {
+                outline: none;
+                border: none;
+                background: #e3ebfcdb;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                svg {
+                    width: 18px;
+                    background: #e3ebfcdb;
+                }
+            }
+        }
+    }
+    .sign-in {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+        svg {
+            width: 16px;
+            color: rgba($color: #000000, $alpha: 0.7);
+        }
+        img {
+            width: 32px;
+            border-radius: 50%;
+        }
+    }
+}
