@@ -6,9 +6,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;;
-  background: #f7f9fcda;
+  font-family: 'Poppins', sans-serif;
 }
 body {
+  background: #f7f9fcda;
   padding: 0 2rem;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.main-screen {
+  background: #fff;
+  height: 85vh;
+  max-width: 80%;
+  width: 80%;
+  border-radius: 0.75rem;
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 0.75rem;
+}
+.main-app {
+  overflow: hidden;
+  padding: 16px;
+  height: 85vh;
 }

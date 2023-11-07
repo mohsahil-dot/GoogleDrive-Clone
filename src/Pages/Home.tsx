@@ -1,13 +1,14 @@
 import React from 'react'
 import Main from '../components/Main';
+import '../index.css';
 
 const Home = () => {
   return (
-    <div>
-      <section>
-        <Main />
-      </section>
-    </div>
+    <section className='main-screen'>
+      <div className='main-app'>
+          <Main />
+      </div>
+    </section>
   )
 }
 
