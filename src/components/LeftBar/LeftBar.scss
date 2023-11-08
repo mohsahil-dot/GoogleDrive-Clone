@@ -2,61 +2,84 @@
     display: flex;
     flex-direction: column;
     width: 205px;
-    margin-top: 0.75rem;
-    .new {
-        background: #fff;
-        width: max-content;
-        padding: 0.8rem 1.1rem;
+    margin: 0.75rem 1.5rem;
+    .logo {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         align-items: center;
-        border-radius: 0.85rem;
-        box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
-        transition: 1.2s ease;
-        cursor: pointer;
+        background: transparent;
+        padding: 0 0 0.85rem 0;
         svg {
-            background: #fff;
-            margin-right: 0.5rem;
+            width: 40px;
+            margin-right: 0.6rem;
         }
-        span {
-            background: #fff;
-            font-size: 0.85rem;
-            font-weight: 400;
-        }
-        &:hover {
-            box-shadow: 0px 16px 24px 2px rgba(0, 0, 0, 0.14);
+        .name {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            svg {
+                width: 50px;
+            }
         }
     }
-    .navs {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1rem;
-        .mydrive-others {
-            padding: 0.25rem 0;
-            .link {
-                text-decoration: none;
-                cursor: default;
-                div {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    gap: 0.8rem;
-                    margin-bottom: 2px;
-                    padding: 6px 15px;
-                    width: 100%;
-                    border-radius: 2rem;
-                    svg {
-                        width: 15px;
-                    }
-                    span {
-                        color: #000;
-                        font-size: 0.85rem;
-                        font-weight: 400;
-                        text-decoration: none;
-                        text-transform: capitalize;
-                    }
-                    &:hover {
-                        background: #e0e1eb;
+    .leftbar-mains {
+        margin: 12px 0;
+        .new {
+            background: #fff;
+            width: max-content;
+            padding: 0.8rem 1.1rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-radius: 0.85rem;
+            box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+            transition: 1.2s ease;
+            cursor: pointer;
+            svg {
+                background: #fff;
+                margin-right: 0.5rem;
+            }
+            span {
+                background: #fff;
+                font-size: 0.85rem;
+                font-weight: 400;
+            }
+            &:hover {
+                box-shadow: 0px 16px 24px 2px rgba(0, 0, 0, 0.14);
+            }
+        }
+        .navs {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+            .mydrive-others {
+                padding: 0.25rem 0;
+                .link {
+                    text-decoration: none;
+                    cursor: default;
+                    div {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 0.8rem;
+                        margin-bottom: 2px;
+                        padding: 6px 15px;
+                        width: 100%;
+                        border-radius: 2rem;
+                        svg {
+                            width: 15px;
+                        }
+                        span {
+                            color: #000;
+                            font-size: 0.85rem;
+                            font-weight: 400;
+                            text-decoration: none;
+                            text-transform: capitalize;
+                        }
+                        &:hover {
+                            background: #e0e1eb;
+                        }
                     }
                 }
             }

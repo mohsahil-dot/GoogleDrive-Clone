@@ -3,27 +3,6 @@
     justify-content: space-between;
     padding: 0.85rem 0;
     background: #f7f9fcda;
-    .logo {
-        display: flex;
-        background: transparent;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        svg {
-            margin-right: 0.6rem;
-            width: 2rem;
-            height: 2rem;
-        }
-        .name {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            svg {
-                width: 3.125rem;
-                height: 1.0335rem;
-            }
-        }
-    }
     .search-bar {
         display: flex;
         flex-direction: row;
