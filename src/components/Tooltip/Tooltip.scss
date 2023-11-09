@@ -1,0 +1,14 @@
+.tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+    .tooltip {
+        position: absolute;
+        background: rgb(0, 0, 0);
+        color: rgb(238, 238, 238);
+        transform: translateY(5%);
+        padding: 5px 8px;
+        border-radius: 4px;
+        z-index: 1;
+        font-size: 0.5rem;
+    }
+}

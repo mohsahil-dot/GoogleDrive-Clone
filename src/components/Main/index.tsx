@@ -1,4 +1,5 @@
 import React from 'react';
+import Tooltip from '../Tooltip';
 import suggLogo from "../../assets/icons/Docs.svg";
 import preview from "../../assets/images/preview.png";
 import user1 from "../../assets/images/user1.webp"
@@ -91,33 +92,428 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <hr />
+            <hr className='category-line' />
             <div className="all-files">
-              <div className="file">
-                <div className="file-icon">
-                  <img src={suggLogo} alt="" />
-                </div>
-                <div className="file-name">
-                  <span>Sahu &lt;&gt; Freddy</span>
-                </div>
-                <div className="file-owner">
-                  <div className="file-owner-icon">
-                    <img src={user1} alt="" />
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
                   </div>
-                  <div className="file-owner-name">
-                    <span>ak0sty</span>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
                   </div>
-                </div>
-                <div className="file-last-modified">
-                  <span>08-12-2022</span>
-                </div>
-                <div className="file-file-size">
-                  <span>24kb</span>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
                 </div>
                 <div className="file-hr">
                   <hr />
                 </div>
               </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
+              <div className="file-div">
+                <div className="file">
+                  <div className="file-icon">
+                    <img src={suggLogo} alt="" />
+                  </div>
+                    <div className="file-name">
+                      <Tooltip text='Google Docs File: Sahu <> Freddy'>
+                        <span>Sahu &lt;&gt; Freddy</span>
+                      </Tooltip>
+                    </div>
+                  <div className="file-owner">
+                    <div className="file-owner-icon">
+                      <img src={user1} alt="" />
+                    </div>
+                    <div className="file-owner-name">
+                      <span>ak0sty</span>
+                    </div>
+                  </div>
+                  <div className="file-last-modified">
+                    <span>08-12-2022</span>
+                  </div>
+                  <div className="file-file-size">
+                    <span>24kb</span>
+                  </div>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
