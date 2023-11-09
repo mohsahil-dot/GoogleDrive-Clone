@@ -24,8 +24,6 @@ body {
   width: calc(100% - 240px);
 }
 .mains {
-  max-height: 82vh;
-  height: 85vh;
   background: #fff;
   margin: 12px 0;
   border-radius: 16px;

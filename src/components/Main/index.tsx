@@ -1,6 +1,7 @@
 import React from 'react';
 import suggLogo from "../../assets/icons/Docs.svg";
 import preview from "../../assets/images/preview.png";
+import user1 from "../../assets/images/user1.webp"
 import "./Main.scss";
 
 const Main = () => {
@@ -91,6 +92,33 @@ const Main = () => {
               </div>
             </div>
             <hr />
+            <div className="all-files">
+              <div className="file">
+                <div className="file-icon">
+                  <img src={suggLogo} alt="" />
+                </div>
+                <div className="file-name">
+                  <span>Sahu &lt;&gt; Freddy</span>
+                </div>
+                <div className="file-owner">
+                  <div className="file-owner-icon">
+                    <img src={user1} alt="" />
+                  </div>
+                  <div className="file-owner-name">
+                    <span>ak0sty</span>
+                  </div>
+                </div>
+                <div className="file-last-modified">
+                  <span>08-12-2022</span>
+                </div>
+                <div className="file-file-size">
+                  <span>24kb</span>
+                </div>
+                <div className="file-hr">
+                  <hr />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

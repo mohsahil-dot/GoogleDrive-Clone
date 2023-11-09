@@ -22,7 +22,10 @@
         }
     }
     .main-drive {
+        max-height: 78vh;
+        height: 78vh;
         overflow-y: scroll;
+        scroll-behavior: smooth;
         .suggested {
             display: flex;
             flex-direction: column;
@@ -174,6 +177,47 @@
                             span {
                                 font-size: 0.65rem;
                                 margin-right: 3px;
+                            }
+                        }
+                    }
+                }
+                .all-files {
+                    .file {
+                        .file-icon {
+                            img {
+
+                            }
+                        }
+                        &-name {
+                            span {
+
+                            }
+                        }
+                        &-owner {
+                            &-icon {
+                                img {
+                                    width: 20px;
+                                }
+                            }
+                            &-name {
+                                span {
+
+                                }
+                            }
+                        }
+                        &-last-modified {
+                            span {
+
+                            }
+                        }
+                        &-file-size {
+                            span {
+
+                            }
+                        }
+                        &-hr {
+                            hr {
+                                
                             }
                         }
                     }
