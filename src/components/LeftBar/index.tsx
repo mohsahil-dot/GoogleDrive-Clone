@@ -1,8 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './LeftBar.scss';
 import { Link } from 'react-router-dom';
+import NewFileTip from '../NewFileTip';
+
 
 const LeftBar: React.FC = () => {
+  const [visibility, setVisibility] = useState(false);
+
+  const handleNewButton = () => {
+    setVisibility(!visibility)
+  }
+
   return (
     <>
       <div className="leftbar-wrapper">
@@ -22,12 +30,15 @@ const LeftBar: React.FC = () => {
           </div>
         </div>
         <div className="leftbar-mains">
-          <div className="new">
+          <div className="new" onClick={handleNewButton}>
               <svg className="Q6yead QJZfhe " width="24" height="24" viewBox="0 0 24 24" focusable="false">
                 <path d="M20 13h-7v7h-2v-7H4v-2h7V4h2v7h7v2z"></path>
               </svg>
               <span>New</span>
           </div>
+          {visibility && <div style={{position: 'absolute'}}><NewFileTip /></div>}
+
+
           <div className="navs">
             <div className="mydrive-others">
 

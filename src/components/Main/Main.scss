@@ -1,24 +1,29 @@
 .main-wrapper {
     display: flex;
     flex-direction: column;
-    .my-drive-dropdown {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .new-drive-dropdown {
         width: max-content;
-        gap: 0.3rem;
-        padding: 4px 12px;
-        border-radius: 50px;
-        span {
-            font-size: 1.12rem;
-            font-weight: 300;
+        .my-drive-dropdown {
+            user-select: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: max-content;
+            gap: 0.3rem;
+            padding: 4px 12px;
+            border-radius: 50px;
+            span {
+                font-size: 1.12rem;
+                font-weight: 300;
+            }
+            svg {
+                width: 14px;
+                transform: rotate(0deg);
+            }
         }
-        svg {
-            width: 14px;
-        }
-        &:hover {
-            cursor: pointer;
-            background: #e0e1eb;
+        .nft {
+            position: absolute;
+            animation: ease-in 1.2s ease-in;
         }
     }
     .main-drive {
@@ -144,14 +149,24 @@
                             flex-direction: row;
                             align-items: center;
                             color: #6B6C7E;
-                            cursor: pointer;
-                            span { 
-                                font-size: 0.65rem;
-                                margin-right: 3px;
-                            }
-                            svg {
-                                color: #6B6C7E;
-                                width: 10px;
+                            .circular-names {
+                                cursor: pointer;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                border-radius: 30px;
+                                padding: 2px 8px;
+                                span { 
+                                    font-size: 0.65rem;
+                                    margin-right: 3px;
+                                }
+                                svg {
+                                    color: #6B6C7E;
+                                    width: 10px;
+                                }
+                                &:hover {
+                                    background: #e0e1eb;
+                                }
                             }
                         }
                         .owners {
@@ -169,14 +184,24 @@
                             flex-direction: row;
                             align-items: center;
                             color: #6B6C7E;
-                            cursor: pointer;
-                            span {
-                                font-size: 0.65rem;
-                                margin-right: 3px;
-                            }
-                            svg {
-                                color: #6B6C7E;
-                                width: 10px;
+                            .circular-last-modified {
+                                cursor: pointer;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                border-radius: 30px;
+                                padding: 2px 8px;
+                                span {
+                                    font-size: 0.65rem;
+                                    margin-right: 3px;
+                                }
+                                svg {
+                                    color: #6B6C7E;
+                                    width: 10px;
+                                }
+                                &:hover {
+                                    background: #e0e1eb;
+                                }
                             }
                         }
                         .file-sizes {

@@ -1,19 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Tooltip from '../Tooltip';
 import suggLogo from "../../assets/icons/Docs.svg";
 import preview from "../../assets/images/preview.png";
 import user1 from "../../assets/images/user1.webp"
 import "./Main.scss";
+import NewFileTip from '../NewFileTip';
 
 const Main = () => {
+
+  const [visibility, setVisibility] = useState(false);
+
+  const handleNewButton = () => {
+    setVisibility(!visibility)
+  }
+
   return (
     <>
     <div className='main-wrapper'>
-      <div className="my-drive-dropdown">
-        <span>My Drive</span>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
-          <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill="#272833"/>
-        </svg>
+      <div className="new-drive-dropdown">
+        <div className="my-drive-dropdown" onClick={handleNewButton}>
+          <span>My Drive</span>
+          <svg className='rot' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+            <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill="#272833"/>
+          </svg>
+        </div>
+        {visibility && <div className="nft"><NewFileTip /></div>}
       </div>
       <div className="main-drive">
         <div className="suggested">
@@ -73,19 +84,23 @@ const Main = () => {
                   <span></span>
                 </div>
                 <div className="names">
-                  <span>Name</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
-                    <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill='#6B6C7E'/>
-                  </svg>
+                  <div className="circular-names">
+                    <span>Name</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                      <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill='#6B6C7E'/>
+                    </svg>
+                  </div>
                 </div>
                 <div className="owners">
                   <span>Owner</span>
                 </div>
                 <div className="last-modifications">
-                  <span>Last Modified</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
-                    <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill='#6B6C7E'/>
-                  </svg>
+                  <div className="circular-last-modified">
+                    <span>Last Modified</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                      <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill='#6B6C7E'/>
+                    </svg>
+                  </div>
                 </div>
                 <div className="file-sizes">
                   <span>File Size</span>
@@ -517,8 +532,10 @@ const Main = () => {
             </div>
           </div>
         </div>
+
       </div>
     </div>
+        
     </>
   )
 }
