@@ -1,0 +1,46 @@
+.sharedwithme-wrapper {
+    display: flex;
+    flex-direction: column;
+    .sharedwithme-heading {
+        width: max-content;
+        padding: 4px 12px;
+        span {
+            font-size: 1.12rem;
+            font-weight: 400;
+        }
+    }
+    .main-shared {
+        max-height: 78vh;
+        height: 78vh;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        .suggested {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 2rem;
+            .suggested-head {
+                margin-top: 1rem;
+                padding: 0px 12px;
+                span {
+                    font-size: 0.8rem;
+                    font-weight: 400;
+                    color: #292929;
+                    cursor: default;
+                }
+            }
+        }
+        .shared-files {
+            display: flex;
+            flex-direction: column;
+            padding: 0 12px;
+            &-head {
+                margin-top: 1rem;
+                span {
+                    cursor: default;
+                    font-size: 0.8rem;
+                    color: #292929;
+                }
+            }
+        }
+    }
+}

@@ -3,6 +3,11 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import LeftBar from './components/LeftBar';
 import Header from './components/Header';
+import Shared from './Pages/Shared';
+import Recent from './Pages/Recent';
+import Starred from './Pages/Starred';
+import Trash from './Pages/Trash';
+import NotFound from './Pages/NotFound';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +19,11 @@ const App: React.FC = () => {
         <div className="mains">
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/shared-with-me' element={<Shared />} />
+            <Route path='/recent' element={<Recent />} />
+            <Route path='/starred' element={<Starred />} />
+            <Route path='/bin' element={<Trash />} />
+            <Route path='*' element={<NotFound />} />
           </Routes>
         </div>
       </div>

@@ -1,0 +1,209 @@
+.allsharedf-wrapper {
+    .category-files {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4px;
+        padding: 3px 0;
+        .category {
+            cursor: default;
+            display: grid;
+            grid-template-columns: 50px 320px 136px 136px 250px;
+            .icons {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                span {
+                    font-size: 0.65rem;
+                }
+            }
+            .names {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: #6B6C7E;
+                .circular-names {
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    border-radius: 30px;
+                    padding: 2px 8px;
+                    span {
+                        font-size: 0.65rem;
+                        margin-right: 3px;
+                    }
+                    svg {
+                        color: #6B6C7E;
+                        width: 10px;
+                    }
+                    &:hover {
+                        background: #e0e1eb;
+                    }
+                }
+            }
+            .owners {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: #6B6C7E;
+                span {
+                    font-size: 0.65rem;
+                    margin-right: 3px;
+                }
+            }
+            .shareDate {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: #6B6C7E;
+                .circular-shareDate {
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    border-radius: 30px;
+                    padding: 2px 8px;
+                    span {
+                        font-size: 0.65rem;
+                        margin-right: 3px;
+                    }
+                    svg {
+                        color: #6B6C7E;
+                        width: 10px;
+                    }
+                    &:hover {
+                        background: #e0e1eb;
+                    }
+                }
+            }
+            .three-dots {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-end;
+                color: #6B6C7E;
+                .circular-three-dots {
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border-radius: 50%;
+                    padding: 3px;
+                    svg {
+                        color: #6B6C7E;
+                        width: 12px;
+                    }
+                    &:hover {
+                        background: #e0e1eb;
+                    }
+                }
+            }
+        }
+    }
+    .category-line {
+        color: #6B6C7E;
+        height: 20%;
+    }
+
+    .all-files {
+        display: flex;
+        flex-direction: column;
+        .file {
+            display: grid;
+            grid-template-columns: 50px 320px 136px 136px 250px;
+            padding: 6px 0;
+            cursor: default;
+            .file-icon {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 16px;
+                }
+            }
+            &-name {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                span {
+                    font-size: 0.7rem;
+                }
+            }
+            &-owner {
+                display: flex;
+                flex-direction: row;
+                gap: 6px;
+                &-icon {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    img {
+                        width: 20px;
+                        border-radius: 50%;
+                    }
+                }
+                &-name {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    span {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+            &-share-date {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                span {
+                    font-size: 0.7rem;
+                }
+            }
+            &-threedots {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: center;
+                .circular-three-dots {
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border-radius: 50%;
+                    padding: 3px;
+                    svg {
+                        width: 12px;
+                    }
+                    &:hover {
+                        background: #dad8d8;
+                    }
+                }
+            }
+            &:hover {
+                background: #e4e4e4;
+            }
+        }
+    }
+}
+
+
+
+//             .file-sizes {
+//                 display: flex;
+//                 flex-direction: row;
+//                 align-items: center;
+//                 color: #6B6C7E;
+//                 span {
+//                     font-size: 0.65rem;
+//                     margin-right: 3px;
+//                 }
+//             }
+//         }
+//     }
+    
+    

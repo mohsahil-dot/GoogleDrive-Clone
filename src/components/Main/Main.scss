@@ -12,18 +12,21 @@
             gap: 0.3rem;
             padding: 4px 12px;
             border-radius: 50px;
+            cursor: pointer;
             span {
                 font-size: 1.12rem;
-                font-weight: 300;
+                font-weight: 400;
             }
             svg {
                 width: 14px;
                 transform: rotate(0deg);
             }
+            &:hover {
+                background: #e0e1eb;
+            }
         }
         .nft {
             position: absolute;
-            animation: ease-in 1.2s ease-in;
         }
     }
     .main-drive {

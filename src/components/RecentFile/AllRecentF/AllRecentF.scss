@@ -1,0 +1,13 @@
+.allrecentf-wrapper {
+    .category-files {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4px;
+        padding: 3px 0;
+        .category {
+            cursor: default;
+            display: grid;
+            grid-template-columns: 50px 320px 136px 125px 136px 125px;
+        }
+    }
+}
