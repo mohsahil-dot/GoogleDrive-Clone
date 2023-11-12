@@ -1,0 +1,25 @@
+.starredfile-wrapper {
+    display: flex;
+    flex-direction: column;
+    .starredfile-heading {
+        width: max-content;
+        padding: 4px 12px;
+        span {
+            font-size: 1.12rem;
+            font-weight: 400;
+        }
+    }
+    .starred-categories {
+        margin-top: 1rem;
+        .category-line {
+            color: #6B6C7E;
+            height: 20%;
+        }
+    }
+    .main-starred {
+        height: 72vh;
+        max-height: 72vh;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+}

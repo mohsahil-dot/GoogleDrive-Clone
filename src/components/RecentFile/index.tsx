@@ -1,6 +1,7 @@
 import React from "react";
 import "./RecentFile.scss";
 import AllRecentF from "./AllRecentF";
+import CategoryF from "./CategoryF";
 
 
 const RecentFile = () => {
@@ -10,11 +11,13 @@ const RecentFile = () => {
                 <div className="recentFile-heading">
                     <span>Recent</span>
                 </div>
+                <div className="categories">
+                    <CategoryF />
+                    <hr className="category-line" />
+                </div>
 
                 <div className="main-recent">
-                    <div className="recent-files">
-                        <AllRecentF />
-                    </div>
+                    <AllRecentF />
                 </div>
             </div>
         </>

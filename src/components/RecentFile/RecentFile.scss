@@ -9,13 +9,17 @@
             font-weight: 400;
         }
     }
+    .categories {
+        margin-top: 1rem;
+        .category-line {
+            color: #6B6C7E;
+            height: 20%;
+        }
+    }
     .main-recent {
-        height: 78vh;
-        max-width: 78vh;
+        height: 72vh;
+        max-height: 72vh;
         overflow-y: scroll;
         scroll-behavior: smooth;
-        .recent-files {
-            
-        }
     }
 }

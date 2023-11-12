@@ -1,0 +1,62 @@
+.trashfile-wrapper {
+    display: flex;
+    flex-direction: column;
+    .upperTrash {
+        padding: 4px 12px;
+        margin-bottom: 1rem;
+        .trashfile-heading {
+            margin-bottom: 0.8rem;
+            width: max-content;
+            span {
+                font-size: 1.12rem;
+                font-weight: 400;
+            }
+        }
+        .trash-tagline {
+            width: 100%;
+            padding: 3px 6px;
+            background: #ededed;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            cursor: default;
+            .line {
+                padding: 6px 10px;
+                span {
+                    font-size: 0.75rem;
+                    font-weight: 300;
+                }
+            }
+            .empty-button {
+                padding: 3px 6px;
+                &-circular {
+                    padding: 3px 12px;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    span {
+                        font-size: 0.85rem;
+                        font-weight: 400;
+                    }
+                    &:hover {
+                        background: #dcdcdc;
+                    }
+                }
+            }
+        }
+    }
+    .trash-categories {
+        .category-line {
+            color: #6B6C7E;
+            height: 20%;
+        }
+    }
+
+    .main-trash {
+        height: 66vh;
+        max-height: 66vh;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+}

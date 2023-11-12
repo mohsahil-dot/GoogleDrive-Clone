@@ -1,0 +1,89 @@
+.categorystarred-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+    padding: 3px 0;
+    .category {
+        cursor: default;
+        display: grid;
+        grid-template-columns: 50px 323px 135px 125px 80px 155px 50px;
+        position: sticky;
+        .icons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            span {
+                font-size: 0.7rem;
+            }
+        }
+        .names {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #6B6C7E;
+            span {
+                font-size: 0.7rem;
+            }
+        }
+        .owners {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #6B6C7E;
+            span {
+                font-size: 0.7rem;
+            }
+        }
+        .time {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #6B6C7E;
+            span {
+                font-size: 0.7rem;
+            }
+        }
+        .file-size {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #6B6C7E;
+            span {
+                font-size: 0.7rem;
+            }
+        }
+        .location {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #6B6C7E;
+            span {
+                padding: 0 8px;
+                font-size: 0.7rem;
+            }
+        }
+        .three-dots {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            color: #6B6C7E;
+            padding-right: 6px;
+            .circular-three-dots {
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 50%;
+                padding: 3px;
+                svg {
+                    color: #6B6C7E;
+                    width: 12px;
+                }
+                &:hover {
+                    background: #e0e1eb;
+                }
+            }
+        }
+    }
+}
