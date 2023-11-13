@@ -4,7 +4,7 @@ import suggLogo from "../../assets/icons/Docs.svg";
 import preview from "../../assets/images/preview.png";
 import user1 from "../../assets/images/user1.webp"
 import "./Main.scss";
-import NewFileTip from '../NewFileTip';
+import NewFileTip from '../Tips/NewFileTip';
 
 const Main = () => {
 
@@ -84,23 +84,27 @@ const Main = () => {
                   <span></span>
                 </div>
                 <div className="names">
-                  <div className="circular-names">
-                    <span>Name</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
-                      <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill='#6B6C7E'/>
-                    </svg>
-                  </div>
+                  <Tooltip text='reverse sort direction'>
+                    <div className="circular-names">
+                      <span>Name</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                        <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill='#6B6C7E'/>
+                      </svg>
+                    </div>
+                  </Tooltip>
                 </div>
                 <div className="owners">
                   <span>Owner</span>
                 </div>
                 <div className="last-modifications">
-                  <div className="circular-last-modified">
-                    <span>Last Modified</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
-                      <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill='#6B6C7E'/>
-                    </svg>
-                  </div>
+                  <Tooltip text='reverse sort direction'>
+                    <div className="circular-last-modified">
+                      <span>Last Modified</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                        <path d="M3.21478 6.37804L7.48679 10.6499C7.76929 10.9323 8.23071 10.9323 8.51321 10.6499L12.7852 6.37804C13.2435 5.91979 12.9202 5.13824 12.2704 5.13824H3.72956C3.07981 5.13824 2.75651 5.91979 3.21478 6.37804Z" fill='#6B6C7E'/>
+                      </svg>
+                    </div>
+                  </Tooltip>
                 </div>
                 <div className="file-sizes">
                   <span>File Size</span>

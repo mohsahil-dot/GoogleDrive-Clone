@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './LeftBar.scss';
 import { Link } from 'react-router-dom';
-import NewFileTip from '../NewFileTip';
+import NewFileTip from '../Tips/NewFileTip';
 
 
 const LeftBar: React.FC = () => {

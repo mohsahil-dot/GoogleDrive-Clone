@@ -1,6 +1,7 @@
 .tooltip-wrapper {
     position: relative;
     display: inline-block;
+    width: max-content;
     .tooltip {
         position: absolute;
         background: rgb(0, 0, 0);
@@ -10,5 +11,6 @@
         border-radius: 4px;
         z-index: 1;
         font-size: 0.5rem;
+        width: max-content;
     }
 }

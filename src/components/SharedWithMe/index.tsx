@@ -2,6 +2,8 @@ import React from "react";
 import "./SharedWithMe.scss";
 import Suggestions from "./Suggestions";
 import AllSharedF from "./AllSharedF";
+import FoldersOnTopTip from "../Tips/FoldersOnTopTip";
+
 
 const SharedWithMe = () => {
     return (
@@ -12,6 +14,7 @@ const SharedWithMe = () => {
                 </div>
 
                 <div className="main-shared">
+                    <FoldersOnTopTip />
                     <div className="suggested">
                         <div className="suggested-head">
                             <span>Suggested</span>

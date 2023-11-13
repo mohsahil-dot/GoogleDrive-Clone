@@ -1,10 +1,10 @@
 import React from "react";
-import Docslogo from "../../assets/icons/Docs.svg";
-import Sheetslogo from "../../assets/icons/Spreadsheets.svg";
-import Slideslogo from "../../assets/icons/Slides.svg";
-import Formslogo from "../../assets/icons/Forms.svg";
-import fileupload from "../../assets/icons/file-upload.svg";
-import folderupload from "../../assets/icons/folder-upload.svg";
+import Docslogo from "../../../assets/icons/Docs.svg";
+import Sheetslogo from "../../../assets/icons/Spreadsheets.svg";
+import Slideslogo from "../../../assets/icons/Slides.svg";
+import Formslogo from "../../../assets/icons/Forms.svg";
+import fileupload from "../../../assets/icons/file-upload.svg";
+import folderupload from "../../../assets/icons/folder-upload.svg";
 
 import "./NewFileTip.scss";
 
